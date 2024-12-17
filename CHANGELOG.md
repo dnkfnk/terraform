@@ -13,7 +13,6 @@ Experiments are only enabled in alpha releases of Terraform CLI. The following f
 - The experimental "deferred actions" feature, enabled by passing the `-allow-deferral` option to `terraform plan`, permits `count` and `for_each` arguments in `module`, `resource`, and `data` blocks to have unknown values and allows providers to react more flexibly to unknown values. This experiment is under active development, and so it's not yet useful to participate in this experiment
 
 ## Previous Releases
-
 For information on prior major and minor releases, refer to their changelogs:
 
 - [v1.10](https://github.com/hashicorp/terraform/blob/v1.10/CHANGELOG.md)
